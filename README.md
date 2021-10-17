@@ -42,7 +42,7 @@ Click Whatsapp logo to Join Support Group 👇
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app-https://github.com/dinukabot/dinukabot)
      </div>
-### ⚠️ Warning! 
+### ⚠️ Warning! .
 ```
 Due to Userbot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
