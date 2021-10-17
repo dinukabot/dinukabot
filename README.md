@@ -40,7 +40,7 @@ Click Whatsapp logo to Join Support Group 👇
  
 [![Run on Repl.it](https://raw.githubusercontent.com/Sew01RaviduManoj01KingAndQueen/QueenSew/master/resources/gif/qr-scan.gif)](https://replit.com/@yasasdileepa/King-Dinuka?v=1)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RAVANA-SL/slRavana)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app-https://github.com/dinukabot/dinukabot)
      </div>
 ### ⚠️ Warning! 
 ```
