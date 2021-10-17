@@ -42,6 +42,9 @@ Click Whatsapp logo to Join Support Group 👇
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fdinukabot%2Fdinukabot)
      </div>
+
+(https://readme-typing-svg.herokuapp.com?color=%23BA0000&lines=Welcome+to+King+Dinuka;Crated+by+Dinuka)](https://git.io/typing-svg)
+
 ### ⚠️ Warning! .
 ```
 Due to Userbot; Your WhatsApp account may be banned.
