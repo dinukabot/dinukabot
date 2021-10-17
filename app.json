@@ -109,6 +109,11 @@
             "description": "promote msg!",
             "required": true,
             "value": "default"
+         },
+         "OWNER_SHIP": {
+            "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
+            "required": false,
+            "value": "DINUKA HIMSARA"
         },
         "DEMOTE_MESSAGE": {
             "description": "demote msg!",
