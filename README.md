@@ -47,7 +47,18 @@ This is an open source project, you are responsible for everything you do.
 Absolutely, Asena executives do not accept responsibility.
 By establishing the Asena, you are deemed to have accepted these responsibilities.
 ```
+නිතර අසන ප්‍රශ්න කිහිපයකට පිළිතුරු සපයන්න;
 
+ඔබට මගේ පණිවිඩ කියවිය හැකිද??
+මෙම ව්‍යාපෘතිය විවෘත කේතයක් බැවින් සියලු කේත පැහැදිලි වේ. අඩු හෝ වැඩි නොවේ; ඔබට අවශ්‍ය දේ බැලීමට ඔබට හැකිය. අපට ඔබගේ ගිණුම් වලට ප්‍රවේශයක් නොමැත.
+
+lockඅපේ ආරක්ෂාව ගැන කුමක් කිව හැකිද?
+ඔබ ආරක්ෂාව ගැන සැලකිලිමත් වන්නේ නම්, ඔබට එය ඔබේම පරිගණකයකින් install කළ හැකිය. වෙනත් අයෙකු ඔබගේ දත්ත ග්‍රහණය කර ගෙන ඇතැයි ඔබ සිතන්නේ නම්, Whatsapp> Three Dots> Whatsapp Web> Logout.
+
+moneybagමෙම බොට් ගෙවිය යුතුද?
+ඇත්ත වශයෙන්ම නැත.* එය කිසි විටෙකත් සිදු නොවේ. නමුත් ඔබට අපට donation කළ හැකිය. You can reach me via Whatsapp .
+  
+  
 ## Developers
   <div align="center">
     
