@@ -69,6 +69,11 @@ Make Full Help| Modifiying  as   public | Bug Fixes, Modules
   </div>
     
 ##  Help  Usuf Usta
+  
+පරිශීලක බොට් නිසා; ඔබගේ WhatsApp ගිණුම banned කළ හැකිය.
+මෙය විවෘත මූලාශ්‍ර ව්‍යාපෘතියකි, ඔබ කරන සෑම දෙයකටම ඔබ වගකිව යුතුය. 
+නියත වශයෙන්ම, King Dinuka  විධායකයන් වගකීම භාර නොගනී.
+King Dinuka  පිහිටුවීමෙන් ඔබ මෙම වගකීම් භාරගෙන ඇති බව සලකනු ලැබේ.
 
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
