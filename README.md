@@ -43,7 +43,6 @@ Click Whatsapp logo to Join Support Group 👇
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fdinukabot%2Fdinukabot)
      </div>
 
-](https://git.io/typing-svg)
 
 ### ⚠️ Warning! .
 ```
