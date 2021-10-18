@@ -1,143 +1,66 @@
-
 {
-    "name": "dinuka bot",
-    "description": "Dinuka💢 project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://telegra.ph/file/7de56858209649d760d99.jpg",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/dinukabot/dinukabot",
-    "website":   "https://t.me/farhan-dqz",
-    "success_url": "https://t.me/farhan-dqz",
+    "name": "WhatsAsena",
+    "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "keywords": ["whatsapp", "userbot", "Asena"],
+    "repository": "https://github.com/Quiec/WhatsAsena",
+    "website":   "https://quiec.tech",
+    "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "DINUKA_SESSION": {
-            "description": "KING DINUKA QR CODE එක Scan කල පසු ඔබේ whatsapp එකට එන code එක",
+        "ASENA_SESSION": {
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu.",
             "required": true
         },
         "SUDO": {
-            "description": "නොදනීනම් වෙනස් නොකරන්න)!",
-            "required": true,
-            "value": " default "
+            "description": "Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "required": false
         },
         "LANGUAGE": {
-            "description": "",
+            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => IN, Español => ES",
             "required": true,
-            "value": "EN"
+            "value": "TR"
         },
         "HANDLERS": {
-            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "description": "Komutlar için.",
             "required": true,
             "value": "^[.!;]"
         },
         "SEND_READ": {
-            "description": "msg seen කිරීමට අවශ්‍ය නම් true ලෙසද msg seen නොකිරීමට false ලෙස යොදන්න!",
+            "description": "Görüldü atmak istiyorsanız true yazın.",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "මෙය පිරවීමෙන් වැලකෙන්න!.",
+            "description": "Herokuda çalışıyorsa true yazın.",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "Heroku API Key එක ටයිප් කරන්න. එය ඔබගේ හෙරෝකු Dashboard එකෙන් ගත් හැකිය",
+            "description": "Herokuda API Keyiniz. Heroku API Key.",
             "required": true
         },
-        "MUTE_MESSAGE": {
-            "description": "Group chat mute කරනවිට පැමිණෙන msg එක!.",
-            "required": true,
-            "value": "default"
-        },
-        "BLOCK_CHAT": {
-            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
-            "required": true,
-            "value": "false"
-        },
-        "UNMUTE_MESSAGE": {
-            "description": "Group chat unmute කරන විට පැමිනෙන msg එක!",
-            "required": true,
-            "value": "default"
-        },
-        "BLOCK_MESSAGE": {
-            "description": " block කරන විට පැමිණෙන msg එක!",
-            "required": true,
-            "value": "default"
-        },
-        "UNBLOCK_MESSAGE": {
-            "description": "Block කරන විට පැමිණෙන msg එක!.",
-            "required": true,
-            "value": "default"
-        },
-        "WORK_TYPE": {
-            "description": "Dinuka_Bot Working Type. ඔබ “public” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම බොට් භාවිතා කළ හැකිය. වෙනත් ආකාරයකින් ඔබ “private” භාවිතා කරන්නේ නම්, ඔබේ බෝට්ව භාවිතා කළ හැක්කේ ඔබට පමණි.",
-            "required": true,
-            "value": "public"
-        },
         "HEROKU_APP_NAME": {
-            "description": " ඔබ ඉහත මුලින්ම දුන් නාමය සදහන් කරන්න.",
+            "description": "Herokuda uygulama adı. Heroku APP Name.",
             "required": true
         },
         "DEBUG": {
-            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
+            "description": "Geliştiricilere özeldir.",
             "required": true,
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "ඡායාරූප වල පසුබිම ඉවත් කරයි.මෙහි API KEY එක ගැනීමට මෙම Site එක තුලට පිවිසෙන්න https://remove.bg",
-            "required": true
-        },
-        "ALIVE_MESSAGE": {
-            "description": ".alive අණකිරීම කිරීමෙන් පසු එන දේ (මෙය ඔබට වෙනස් කල හැක..!)",
-            "required": true,
-            "value": "```I am Alive```\n\n```Coded By Dinuka```"
-        },
-        "BAN_MESSAGE": {
-            "description": "Group එකෙන් කෙනෙක් ඉවත් කරන විට පැමිණෙන msg එක !",
-            "required": true,
-            "value": "default"
-        },
-        "ADD_MESSAGE": {
-            "description": "group එකට කෙනෙක් add කරන විට පැමිණෙන msg එක!",
-            "required": true,
-            "value": "default"
-        },
-        "KICKME_MESSAGE": {
-            "description": "kickme msg!",
-            "required": true,
-            "value": "default"
-        },
-        "PROMOTE_MESSAGE": {
-            "description": "promote msg!",
-            "required": true,
-            "value": "default"
-         },
-         "OWNER_SHIP": {
-            "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
-            "required": false,
-            "value": "DINUKA HIMSARA"
-        },
-        "DEMOTE_MESSAGE": {
-            "description": "demote msg!",
-            "required": true,
-            "value": "default"
-        },
-        "AFK_MESSAGE": {
-            "description": "afk massage!",
-            "required": true,
-            "value": "default"
-        },
-        "GAN_IMAGE": {
-            "description": "මෙය පිරවීමෙන් වැලකෙන්න!(මෙය වෙනස් කරන්න එපා).",
-            "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
+            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
+            "required": false
         },
         "NO_ONLINE": {
-            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
-            "required": true,
+            "description": "Çevrimiçi görünmek istemiyorsanız true yazın.",
+            "required": false,
             "value": "true"
         },
         "COFFEEHOUSE_API_KEY": {
-            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
-            "required": true,
+            "description": "CoffeeHouse API Key. Need for Lydia. https://coffeehouse.intellivoid.net/",
+            "required": false,
             "value": "true"
         }
     },
